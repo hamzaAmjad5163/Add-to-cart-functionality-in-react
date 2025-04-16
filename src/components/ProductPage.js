@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import ProductCard from './ProductCard';
-import { products } from '../products';
+import products from '../products';
 
 const Container = styled.div`
   padding: 2rem;
