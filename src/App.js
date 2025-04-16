@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 // import ProductPage from './components/ProductPage';
-// import Cart from './components/Cart';
+import Cart from './components/Cart';
 import './App.css';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
                 setCartItems={setCartItems} 
               />
             } 
-          />
+          /> */}
           <Route 
             path="/cart" 
             element={
@@ -30,7 +30,7 @@ function App() {
                 setCartItems={setCartItems} 
               />
             } 
-          /> */}
+          />
         </Routes>
       </div>
     </Router>
